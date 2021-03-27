@@ -94,13 +94,14 @@ a:hover {
 /* Homepage Navbar */
 .navbar{
     justify-content: space-between;
-    z-index: 10;
 }
 
 .bg-nav-dark {
     position: fixed;
     background: var(--bg-color);
     top: 0;
+    left: 0;
+    z-index: 10;
     width: 100%;
 }
 
