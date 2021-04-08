@@ -1,3 +1,161 @@
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #282c34;
+    --bg-secondary-color: #20232a;
+    --font-dark-color: #333;   
+    --font-white-color: #fff;
+    --logo-color: #6cc3d9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--bg-color);
+    /* background: var(--bg-color); */
+}
+
+/* Utility */
+.img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s ease-in;
+}
+
+a:hover {
+    color: var(--logo-color);
+}
+
+.bg-nav-dark {
+    background: var(--bg-secondary-color);
+}
+
+.container {
+    width: 98%;
+    max-width: 1200px;   
+    margin: 0px auto;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 0.75em 2em;
+    margin: 1em 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary-home {
+    background: var(--logo-color);
+    color: var(--bg-secondary-color);
+}
+
+.btn-home:hover {
+    background: var(--bg-secondary-color);
+}
+
+.text-m {
+    font-size: 1.25rem;
+}
+
+.text-yellow {
+    color: var(--logo-color);
+}
+
+.text-white {
+    color: var(--font-white-color);
+}
+
+.text-dark {
+    color: #333;
+}
+
+.tagline {
+    width: 50%;
+    text-align: center;
+}
+
+/* Homepage Navbar */
+.navbar{
+    justify-content: space-between;
+}
+
+.bg-nav-dark {
+    position: fixed;
+    background: var(--bg-color);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-white-color);
+}
+
+.navbar ul {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+.navbar ul li a {
+    margin-left: 2.5rem;
+    font-size: 1.25rem;
+}
+
+/* Main */
+.main {
+    background: var(--bg-color);
+    height: 90vh;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    background: var(--bg-secondary-color);
+    padding: 1.5rem 0;
+    text-align: center;
+    color: var(--font-white-color);
+}
+
+.footer span {
+    vertical-align: middle;
+}
+
+/* Docs CSS*/
+
 .docs .container {
     display: grid;
     grid-template-columns: 1fr 6fr;
