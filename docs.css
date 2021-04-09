@@ -32,7 +32,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--font-white-color);
     transition: 0.25s ease-in;
 }
 
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .bg-nav-dark {
-    position: fixed;
+    position: sticky;
     background: var(--bg-color);
     top: 0;
     left: 0;
@@ -181,7 +181,6 @@ a:hover {
 }
 
 .docs-content {
-    margin: 4.5rem 0;
     padding: 2rem;    
     width: 80%;
 }
@@ -401,6 +400,10 @@ a:hover {
 
 .nav-space-between {
     justify-content: space-between;
+}
+
+.nav ul li {
+    color: #fff;
 }
 
 .nav ul li a {
