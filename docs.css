@@ -19,7 +19,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: var(--bg-color);
-    /* background: var(--bg-color); */
 }
 
 /* Utility */
@@ -376,9 +375,12 @@ a:hover {
     align-items: center;
 }
 
+.gap {
+    gap: 1rem;
+}
+
 .nav-flex ul{
     display: flex;
-    gap: 1rem;
     padding: 1rem;
 }
 
