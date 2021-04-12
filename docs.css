@@ -215,6 +215,18 @@ a:hover {
     margin: 1.5rem 0;
 }
 
+.m2 {
+    margin: 2rem 0;
+}
+
+.m3 {
+    margin: 3rem 0;
+}
+
+.p1 {
+    padding: 0.25rem;
+}
+
 .alert-success {
     color: green;
     background: rgba(75, 175, 75, 0.5);
@@ -319,6 +331,8 @@ a:hover {
 /* Cards */
 .card {
     width: 200px;
+    box-shadow: 3px 3px 5px 1px #ccc;
+    border-radius: 6px;
 }
 
 .strikethrough {
