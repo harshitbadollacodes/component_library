@@ -304,7 +304,8 @@ a:hover {
     cursor: pointer;
     padding: 0.75em;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
     font-size: 1.125rem;
 }
 
