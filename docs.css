@@ -227,6 +227,10 @@ a:hover {
     padding: 0.25rem;
 }
 
+.m-1 {
+    margin: 0 1.5rem
+}
+
 .alert-success {
     color: green;
     background: rgba(75, 175, 75, 0.5);
@@ -332,7 +336,7 @@ a:hover {
 /* Cards */
 .card {
     width: 200px;
-    box-shadow: 3px 3px 5px 1px #ccc;
+    /* box-shadow: 3px 3px 5px 1px #ccc; */
     border-radius: 6px;
 }
 
@@ -356,11 +360,11 @@ a:hover {
 }
 
 .horizontal-card {
-    border: 1px solid #333;
-    padding: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
+    border: 1px solid #333;
+    padding: 1rem;
 }
 
 .horizontal-card img {
