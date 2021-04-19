@@ -231,8 +231,12 @@ a:hover {
     padding: 1rem;
 }
 
+.p-1 {
+    padding: 1rem 0;
+}
+
 .m-1 {
-    margin: 0 1.5rem
+    margin: 1.5rem
 }
 
 .alert-success {
