@@ -201,12 +201,6 @@ a:hover {
     align-items: center;
 }
 
-.flex-col {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
 .flex-row-between {
     justify-content: space-between;
 }
