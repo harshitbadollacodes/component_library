@@ -10,6 +10,10 @@
     --logo-color: #6cc3d9;
 }
 
+.bg-white {
+    background: var(--font-white-color);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -211,6 +215,10 @@ a:hover {
     border-radius: 10px;
 }
 
+.m025 {
+    margin: 0.25rem 0;
+}
+
 .m1 {
     margin: 1.5rem 0;
 }
@@ -344,7 +352,6 @@ a:hover {
 /* Cards */
 .card {
     width: 200px;
-    /* box-shadow: 3px 3px 5px 1px #ccc; */
     border-radius: 6px;
 }
 
