@@ -54,6 +54,18 @@ a:hover {
     margin: 0px auto;
 }
 
+.container-width-1300 {
+    max-width: 1300px;
+}
+
+.container-width-1400 {
+    max-width: 1400px;
+}
+
+.container-width-1500 {
+    max-width: 1500px;
+}
+
 .btn-home {
     display: inline-block;
     padding: 0.75em 2em;
