@@ -341,6 +341,10 @@ a:hover {
     font-size: 1.125rem;
 }
 
+.btn-width-100 {
+    width: 100%;
+}
+
 .btn-primary {
     color: var(--font-white-color);
     background: var(--bg-color);
