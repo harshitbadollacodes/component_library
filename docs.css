@@ -54,6 +54,10 @@ a:hover {
     margin: 0px auto;
 }
 
+.container-width-1000 {
+    max-width: 1000px;
+}
+
 .container-width-1300 {
     max-width: 1300px;
 }
