@@ -320,18 +320,29 @@ a:hover {
     display: flex;
     gap: 1rem;
     position: relative;
+    /* background: orange; */
+}
+
+
+
+.badge-icon {
+    position: relative;
+    
 }
 
 .badge-icon p {
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 65%;
+    font-size: 1rem;
+    background: #F87171;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    top: -50px;
-    right: -30px;
-    background: #F87171;
     text-align: center;
-    font-size: 1rem;
+    vertical-align: middle;
+    color: #fff;
+    
 }
 
 /* Buttons */
