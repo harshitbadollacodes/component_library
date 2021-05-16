@@ -225,6 +225,12 @@ a:hover {
     justify-content: space-between;
 }
 
+.flex-all-center {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .alert {
     padding: 1rem 0.5rem;
     width: fit-content;
