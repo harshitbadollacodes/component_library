@@ -36,8 +36,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--font-white-color);
     transition: 0.25s ease-in;
+}
+
+.text-white {
+    color: var(--font-white-color);
 }
 
 a:hover {
