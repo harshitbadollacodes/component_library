@@ -39,10 +39,6 @@ a {
     transition: 0.25s ease-in;
 }
 
-.text-white {
-    color: var(--font-white-color);
-}
-
 a:hover {
     color: var(--logo-color);
 }
@@ -260,6 +256,10 @@ a:hover {
     margin: 3rem 0;
 }
 
+.m-1 {
+    margin: 1.5rem
+}
+
 .p025 {
     padding: 0.25rem;
 }
@@ -272,9 +272,7 @@ a:hover {
     padding: 1rem 0;
 }
 
-.m-1 {
-    margin: 1.5rem
-}
+
 
 .alert-success {
     color: green;
