@@ -213,10 +213,9 @@ a:hover {
 }
 
 /* Alerts */
-.flex {
+.flex-col {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 .flex-row {
@@ -473,10 +472,6 @@ a:hover {
 .nav-space-between {
     justify-content: space-between;
 }
-
-/* .nav ul li {
-    color: #fff;
-} */
 
 .nav ul li a {
     color: #333;
