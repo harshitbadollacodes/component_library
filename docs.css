@@ -261,6 +261,10 @@ a:hover {
     margin: 1.5rem
 }
 
+.mb-1 {
+    margin-bottom: 16px;
+}
+
 .p025 {
     padding: 0.25rem;
 }
@@ -446,7 +450,7 @@ a:hover {
 }
 
 .login-form-input{
-    margin-bottom: 15px
+    /* margin-bottom: 15px */
 }
 
 /* Navbar */
