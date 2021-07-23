@@ -371,6 +371,10 @@ a:hover {
     width: 70%;
 }
 
+.width-40 {
+    width: 40%;
+}
+
 .btn-primary {
     color: var(--font-white-color);
     background: var(--bg-color);
