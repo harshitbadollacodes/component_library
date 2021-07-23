@@ -449,10 +449,6 @@ a:hover {
     outline: none;
 }
 
-.login-form-input{
-    /* margin-bottom: 15px */
-}
-
 /* Navbar */
 .nav-bg {
     background: var(--logo-color);
