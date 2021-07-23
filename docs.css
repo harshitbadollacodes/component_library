@@ -76,6 +76,7 @@ a:hover {
     font-size: 1rem;
     font-weight: 500;
     border: none;
+    cursor: pointer;
     border-radius: 15px;
 }
 
@@ -356,7 +357,7 @@ a:hover {
 .btn {
     display: inline-block;
     cursor: pointer;
-    padding: 0.75em;
+    padding: 0.5em;
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -442,6 +443,10 @@ a:hover {
 
 .input:focus {
     outline: none;
+}
+
+.login-form-input{
+    margin-bottom: 15px
 }
 
 /* Navbar */
