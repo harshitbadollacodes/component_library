@@ -39,10 +39,6 @@ a {
     transition: 0.25s ease-in;
 }
 
-a:hover {
-    /* color: var(--logo-color); */
-}
-
 .bg-nav-dark {
     background: var(--bg-secondary-color);
 }
