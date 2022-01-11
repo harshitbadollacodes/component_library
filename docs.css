@@ -373,6 +373,11 @@ a {
     border-radius: 5px;
     text-align: center;
     font-size: 1.125rem;
+    transition: all 0.5 ease-in;
+}
+
+.btn:hover {
+    color: powderblue;
 }
 
 .width-100 {
