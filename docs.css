@@ -223,6 +223,10 @@ a {
     align-items: center;
 }
 
+.flex-wrap {
+    wrap;
+}
+
 .flex-row-between {
     justify-content: space-between;
 }
