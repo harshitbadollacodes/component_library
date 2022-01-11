@@ -265,6 +265,14 @@ a {
     margin-bottom: 16px;
 }
 
+.mx-1 {
+    margin: 0 1rem;
+}
+
+.my-1 {
+    margin: 1rem 0;
+}
+
 .p025 {
     padding: 0.25rem;
 }
@@ -334,7 +342,6 @@ a {
 /* Badges */
 .badges-div {
     display: flex;
-    gap: 1rem;
     position: relative;
 }
 
@@ -428,7 +435,7 @@ a {
 .horizontal-card {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
     border: 1px solid #333;
     padding: 1rem;
 }
@@ -459,9 +466,9 @@ a {
     align-items: center;
 }
 
-.gap {
+/* .gap {
     gap: 1rem;
-}
+} */
 
 .nav-flex ul{
     display: flex;
@@ -474,7 +481,7 @@ a {
 
 .nav ul {
     display: flex;
-    gap: 1rem;
+    /* gap: 1rem; */
     align-items: center;
     padding: 1rem 0;
 }
