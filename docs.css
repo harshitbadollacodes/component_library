@@ -37,6 +37,7 @@ ul {
 a {
     text-decoration: none;
     transition: 0.25s ease-in;
+    color: #282c34;
 }
 
 .bg-nav-dark {
@@ -394,6 +395,10 @@ a {
 
 .width-70 {
     width: 70%;
+}
+
+.width-60 {
+    width: 60%;
 }
 
 .width-50 {
