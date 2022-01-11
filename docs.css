@@ -224,7 +224,7 @@ a {
 }
 
 .flex-wrap {
-    wrap;
+    flex-wrap: wrap;
 }
 
 .flex-row-between {
