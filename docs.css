@@ -232,6 +232,14 @@ a {
     justify-content: space-between;
 }
 
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+
 .flex-all-center {
     width: 100%;
     align-items: center;
