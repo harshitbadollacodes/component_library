@@ -86,6 +86,10 @@ a {
     background: var(--bg-secondary-color);
 }
 
+.hidden {
+    display: none;
+}
+
 .text-m {
     font-size: 1.25rem;
 }
