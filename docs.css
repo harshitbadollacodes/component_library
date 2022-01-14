@@ -115,6 +115,10 @@ a {
     border-radius: 10px;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /* Homepage Navbar */
 .navbar{
     justify-content: space-between;
