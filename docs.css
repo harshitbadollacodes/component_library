@@ -414,6 +414,10 @@ a {
     transition: all 0.5 ease-in;
 }
 
+.w-full {
+    width: 100%
+}
+
 .btn:hover {
     background: powderblue;
     color: #333;
@@ -565,6 +569,14 @@ a {
 
 .border {
     border: 1px solid #20232a;
+}
+
+.border-top-2 {
+    border: 2px solid #20232a;
+}
+
+.border-right {
+    border-right: 1px solid #20232a;
 }
 
 .radius-5 {
